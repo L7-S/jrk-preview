@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 94 485 358" width="485" height="358">
+  <defs>
+    <!-- Primary JR Blue Gradient -->
+    <linearGradient id="jrBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0097e0" />
+      <stop offset="100%" stop-color="#008bd0" />
+    </linearGradient>
+
+    <!-- Flame Band 1 (Inner Left - Deep Cyan Blue) -->
+    <linearGradient id="flameDarkBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0095de" />
+      <stop offset="65%" stop-color="#0087cc" />
+      <stop offset="100%" stop-color="#0073b1" />
+    </linearGradient>
+
+    <!-- Flame Band 2 (Middle Ribbon - Bright Sky Blue to Icy Cyan) -->
+    <linearGradient id="flameMidBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#008fd6" />
+      <stop offset="50%" stop-color="#38b6ea" />
+      <stop offset="85%" stop-color="#8ed8f8" />
+      <stop offset="100%" stop-color="#0093dd" />
+    </linearGradient>
+
+    <!-- Flame Band 3 (Outer Right Ribbon - Light Cyan Highlight to Deep Blue Tip) -->
+    <linearGradient id="flameLightBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0093dd" />
+      <stop offset="30%" stop-color="#6bcaf2" />
+      <stop offset="65%" stop-color="#bce6fb" />
+      <stop offset="80%" stop-color="#0095de" />
+      <stop offset="100%" stop-color="#007ec2" />
+    </linearGradient>
+  </defs>
+
+
+  <!-- 1. "JR" MONOGRAM LIGATURE -->
+  <path fill="url(#jrBlue)" fill-rule="evenodd" d="
+    M 91,109
+    L 164,109
+    C 214,109 245,135 245,181
+    C 245,214 224,238 195,247
+    L 282,366
+    L 234,366
+    L 161,257
+    L 129,257
+    L 129,346
+    C 129,398 100,425 51,425
+    C 36,425 23,423 16,420
+    L 16,385
+    C 25,388 37,390 48,390
+    C 78,390 91,375 91,343
+    L 91,109 Z
+    M 129,142
+    L 129,225
+    L 160,225
+    C 190,225 206,209 206,183
+    C 206,158 190,142 160,142
+    L 129,142 Z" />
+
+  <!-- 2. "K" CHEVRON ARMS (GRAY & BLACK) -->
+  <polygon fill="#d1d3d4" points="365,109 377,109 272,236 386,366 374,366 260,236" />
+  <polygon fill="#231f20" points="377,109 415,109 311,236 433,366 386,366 272,236" />
+
+  <!-- 3. LAYERED BLUE SWOOSHES / FLAMES -->
+  <!-- Upper-Right Flame -->
+  <g>
+    <path fill="url(#flameDarkBlue)" d="
+      M 414,165
+      C 394,187 397,205 421,218
+      C 438,227 446,237 445,250
+      C 450,236 445,221 427,209
+      C 409,197 407,181 414,165 Z" />
+    <path fill="url(#flameMidBlue)" d="
+      M 414,165
+      C 407,181 409,197 427,209
+      C 445,221 450,236 445,250
+      C 454,235 451,216 433,202
+      C 417,190 414,177 414,165 Z" />
+    <path fill="url(#flameLightBlue)" d="
+      M 414,165
+      C 414,177 417,190 433,202
+      C 451,216 454,235 445,250
+      C 458,232 459,210 439,192
+      C 425,180 418,173 414,165 Z" />
+  </g>
+
+  <!-- Lower-Left Flame -->
+  <g>
+    <path fill="url(#flameDarkBlue)" d="
+      M 391,189
+      C 362,219 364,245 397,265
+      C 420,279 430,293 428,312
+      C 436,294 430,273 406,255
+      C 382,237 380,213 391,189 Z" />
+    <path fill="url(#flameMidBlue)" d="
+      M 391,189
+      C 380,213 382,237 406,255
+      C 430,273 436,294 428,312
+      C 441,292 438,266 415,246
+      C 394,228 390,208 391,189 Z" />
+    <path fill="url(#flameLightBlue)" d="
+      M 391,189
+      C 390,208 394,228 415,246
+      C 438,266 441,292 428,312
+      C 446,289 448,259 422,234
+      C 404,217 396,203 391,189 Z" />
+  </g>
+
+  <!-- 4. "Life Sciences" CALLIGRAPHIC SCRIPT (Locked from x=148 to x=431) -->
+  <text x="148" y="424" font-family="&#39;Monotype Corsiva&#39;, &#39;Zapf Chancery&#39;, &#39;URW Chancery L&#39;, &#39;Apple Chancery&#39;, &#39;Palatino Linotype&#39;, &#39;Georgia&#39;, serif" font-size="44" font-style="italic" fill="#231f20">Life Sciences</text>
+</svg>
